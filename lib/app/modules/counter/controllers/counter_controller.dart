@@ -11,7 +11,7 @@ class CounterController extends GetxController {
     }
   }
   void kurangsatu() {
-    if (bilangan.value >= 0) {
+    if (bilangan.value <= 0) {
       Get.snackbar('Warning', 'loba teuing plok');
     } else {
       bilangan.value--;
